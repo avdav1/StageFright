@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lund Layout 1</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="relative">
+    <div class="fixed top-0 right-0 left-0 bg-amber-50 bg-cover min-h-screen"></div>
+    <div id="container" class="absolute top-0 right-0 left-0 z-10 flex flex-col max-w-7xl min-h-screen mx-auto space-y-5 text-gray-900">
+        <div id="logo" class="flex items-center justify-between py-5">
+            <div class="px-8">
+                <img src="img/StageFrightLogoNavy.png" alt="Logo" class="w-32 h-auto">
+            </div>            
+            <div class="px-8 text-sm font-semibold">
+                Stage Fright Tour 2026: April 18th to May 15th
+            </div>
+            <div class="flex items-center space-x-5">
+                <div class="px-5 py-2 text-2xl font-semibold bg-teal-600 rounded-lg text-white">
+                    <a href="file:///C:/Users/DAVIS/OneDrive/Desktop/StageFrightMembers/Website%20Coding/layout1.html">Members</a>
+                </div>
+                <div class="px-5 py-2 text-2xl font-semibold bg-teal-600 rounded-lg text-white">
+                    <a href="file:///C:/Users/DAVIS/OneDrive/Desktop/StageFrightMembers/Website%20Coding/layout1.html">Merch</a>
+                </div>
+                <div class="px-5 py-2 text-2xl font-semibold bg-teal-600 rounded-lg text-white">
+                    <a href="file:///C:/Users/DAVIS/OneDrive/Desktop/StageFrightMembers/Website%20Coding/layout1.html">Tickets</a>
+                </div>
+                <div class="px-5 py-2 text-2xl font-semibold bg-teal-600 rounded-lg text-white">
+                    <a href="file:///C:/Users/DAVIS/OneDrive/Desktop/StageFrightMembers/Website%20Coding/layout1.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <header id="header" class="py-8 px-8 flex flex-col justify-center rounded-lg text-blue-950">
+            <div class="text-6xl font-semibold">
+                <p>Unisex Stage Fright</p>
+                <p>T-Shirt</p>
+            </div>
+            <div class="py-5 text-xl">
+                <p>$38.99</p>
+            </div>
+            <label for="product">Choose a size:</label>
+            <select id="product" name="product">
+                <option value="alexisShirt">XS</option>
+                <option value="johnShirt">S</option>
+                <option value="stageFrightShirt">M</option>
+                <option value="alexisShirt">L</option>
+                <option value="johnShirt">XL</option>
+                <option value="stageFrightShirt">XXL</option>
+            </select>
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: flex-end;">
+                <div style="width: 60%; display: flex; gap: 10px; padding-top: 10;">
+                    <img src="img/SFTee.png" alt="Small Image 1" style="width: 33.33%; height: auto;">
+                    <img src="img/JohnShirt.png" alt="Small Image 2" style="width: 33.33%; height: auto;">
+                    <img src="img/AlexisShirt.png" alt="Small Image 3" style="width: 33.33%; height: auto;">
+                </div>
+            </div>
+        </div>
+</body>
+</html>
